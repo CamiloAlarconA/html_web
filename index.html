@@ -7,24 +7,15 @@
 </head>
 <body>
     <header>
-        <nav>
-            <form action="buscar.html" method="GET" style="display: flex; margin-top: 10px;">
-                <input type="text" name="query" placeholder="Buscar..." style="padding: 5px; flex-grow: 1;">
-                <button type="submit" style="padding: 5px;">Buscar</button>
+        <nav style="display: flex; gap: 20px;">
+            <a href="index.html">Inicio</a>
+            <a href="peliculas.html">Películas</a>
+            <a href="series.html">Series</a>
+            <form>
+                <input type="text" placeholder="Buscar...">
+                <button type="submit">Buscar</button>
             </form>
-            <ul>
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="peliculas.html">Peliculas</a>
-
-                </li>
-                <li>
-                    <a href="#">Series</a>
-                </li>
-            </ul>
-        </nav>
+        </nav>          
     </header>
     <main>
         <section>
@@ -39,7 +30,7 @@
                 <h2>Lo más nuevo</h2>
                 <section class="peliculas">
                     <h3>Peliculas sacadas recientemente</h3>
-                    <div style="display: flex; gap: 20px;">
+                    <section style="display: flex; gap: 20px;">
                         <figure>
                             <a href="intensamente.html">
                                 <img src="Imagenes/intensamente_2.jpg" alt="Intrensamente 2" width="200">
@@ -49,7 +40,7 @@
                         </figure>
                         <figure>
                             <a href="deadpool.html">
-                                <img src="Imagenes/deadpool.jpg" alt="Dead-Pool 3" width="200">
+                                <img src="Imagenes/deadpool.jpg" alt="Dead-Pool 3" width="200" height="300">
                             </a>
                             <br>
                             Dead-Pool 3
@@ -75,11 +66,11 @@
                             <br>
                             Rescate Imposible
                         </figure>
-                    </div>
+                    </section>
                 </section>
                 <section class="series">
                     <h3>Series sacadas recientemente</h3>
-                    <div style="display: flex; gap: 20px;">
+                    <section style="display: flex; gap: 20px;">
                         <figure>
                             <a href="accidente.html">
                                 <img src="Imagenes/accidente.jpeg" alt="Accidente" width="200">
@@ -103,7 +94,7 @@
                         </figure>
                         <figure>
                             <a href="fallout.html">
-                                <img src="Imagenes/fallout.jpg" alt="Fallout" width="250">
+                                <img src="Imagenes/fallout.jpg" alt="Fallout" width="200" height="300">
                             </a>
                             <br>
                             Fallout
@@ -115,7 +106,7 @@
                             <br>
                             El problema de los tres cuerpos
                         </figure>
-                    </div>
+                    </section>
                 </section>
             </section>
     </main>
