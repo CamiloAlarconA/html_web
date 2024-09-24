@@ -93,22 +93,12 @@ figure figcaption {
     color: #555;
 }
 
-.peliculasRecientes{
+.series{
     display: flex; 
     gap: 20px;
 }
 
-.peliculasRecientes img{
-    width: 200px;
-    height: 300px;
-}
-
-.seriesRecientes{
-    display: flex; 
-    gap: 20px;
-}
-
-.seriesRecientes img{
+.series img{
     width: 200px;
     height: 300px;
 }
