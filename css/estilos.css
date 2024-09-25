@@ -112,3 +112,69 @@ figure figcaption {
     width: 200px;
     height: 300px;
 }
+
+footer {
+    background-color: #4A4A4A;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+footer ul li a {
+    color: #ff6347;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer ul ul {
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer ul ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul ul li a {
+    color: #ff6347;
+    font-weight: bold;
+}
+
+footer ul ul li a:hover {
+    text-decoration: underline;
+}
+
+footer li {
+    margin: 10px 0;
+}
+
+footer a:hover {
+    color: #ff8567;
+}
